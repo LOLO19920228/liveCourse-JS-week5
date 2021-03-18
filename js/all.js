@@ -88,7 +88,9 @@ addTicketBtn.addEventListener("click", function (e) {
   if (ticketName.value == "" || ticketName.value == "" || ticketImgUrl.value == "" || ticketRegion.value == "" || ticketDescription.value == "" || ticketNum.value == "" || ticketPrice.value == "" || ticketRate.value == "") {
     alert("請輸入完整資料");
     return;
-  } else {
+  }else if(ticketRate.value <= 0 || ticketRate.value > 10){
+    alert("套票星級請介於1～10之間");
+  }else{
     let obj = {};
     obj.id = Date.now();
     obj.name = ticketName.value;
