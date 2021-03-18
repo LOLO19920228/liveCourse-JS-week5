@@ -1,0 +1,32 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a {
+    text-decoration: none !important;
+    display: block;
+    color: $black;
+}
+html {
+    font-size: $font-size-base;
+}
+body {
+    font-family: $font-family-base;
+    line-height: $line-height-base;
+}
+h1,h2,h3,h4,h5,h6,
+p {
+    margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+ul,ol,li{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+// .material-icons{
+//     vertical-align: bottom;
+// }

@@ -1,0 +1,33 @@
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+.align-origin{
+    top: 0;
+    left: 0;
+}
+.object-cover {
+    -o-object-fit: cover!important;
+    object-fit: cover!important;
+}
+.fz-sm {
+    font-size: $font-size-base;
+}
+.fz-nl {
+    font-size: $font-size-base * 1.25;
+}
+.fz-xl {
+    font-size: $font-size-base * 1.5;
+}
+.fz-xxl {
+    font-size: $font-size-base * 2;
+}
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+.border-2px{
+    border-width: 2px !important;
+}
+.border-3px{
+    border-width: 3px !important;
+}

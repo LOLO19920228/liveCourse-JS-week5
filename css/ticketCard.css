@@ -1,0 +1,105 @@
+.ticketCard {
+  background: white;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  margin-bottom: 38px !important;
+}
+
+.ticketCard .ticketCardImg {
+  position: relative;
+}
+
+.ticketCard .ticketCardImg a {
+  display: block;
+  overflow: hidden;
+}
+
+.ticketCard .ticketCardImg img {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ticketCard .ticketCardImg img:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.ticketCard .ticketCardImg .cardArea {
+  position: absolute;
+  top: -13px;
+  left: 0;
+  font-size: 1.25rem;
+  background-color: #64c3bf;
+  padding: 12px 20px;
+  border-radius: 0 5px 5px 0px;
+}
+
+.ticketCard .ticketCardImg .cardArea p {
+  color: #fff;
+  text-align: center;
+}
+
+.ticketCard .ticketCardContent {
+  padding: 20px 20px 14px 20px;
+  height: 296px;
+  position: relative;
+}
+
+.ticketCard .ticketCardContent .cardName {
+  font-size: 24px;
+  color: #00807e;
+  border-bottom: 2px solid #007572;
+  margin-bottom: 16px;
+}
+
+.ticketCard .ticketCardContent .cardName a {
+  color: #00807e;
+}
+
+.ticketCard .ticketCardContent .cardDescription {
+  color: #818a91;
+}
+
+.ticketCard .ticketCardContent .cardGroup {
+  color: #00807e;
+  line-height: 43px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ticketCard .ticketCardContent .cardPrice {
+  color: #00807e;
+  line-height: 43px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ticketCard .ticketCardContent .cardPrice span {
+  font-size: 32px;
+}
+
+.ticketCard .ticketCardContent .cardRate {
+  position: absolute;
+  top: -16px;
+  left: 0;
+  background-color: #00807e;
+  padding: 5px 8px;
+  min-width: 40px;
+  border-radius: 0 5px 5px 0px;
+}
+
+.ticketCard .ticketCardContent .cardRate p {
+  color: #fff;
+  text-align: center;
+}
+/*# sourceMappingURL=ticketCard.css.map */

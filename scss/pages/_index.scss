@@ -1,0 +1,47 @@
+.addTicket {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    .col-10 {
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 12px;
+        padding: 60px 0;
+        max-width: calc(83.33333% - 30px) !important;
+        .addTravelCardImg {
+            img {
+                width: 80%;
+                height: auto;
+                margin-bottom: 21px;
+            }
+        }
+        form {
+            width: 80%;
+            .inputStyle {
+                background: #fafafa;
+                border-bottom: 1px solid #00807e !important;
+            }
+        }
+    }
+}
+.main {
+    background: #f7f7f7;
+    padding-bottom: 93px;
+    .col-10 {
+        margin: 0 auto;
+        select {
+            width: 255px;
+            margin-right: 30px;
+            color: #818a91;
+            padding: 8px 12px;
+        }
+    }
+    .ticketCards {
+        .col-4 {
+            max-width: calc(33.33333% - 30px) !important;
+            padding-right: 0;
+            padding-left: 0;
+            margin: 0 15px;
+        }
+    }
+}
+
+
