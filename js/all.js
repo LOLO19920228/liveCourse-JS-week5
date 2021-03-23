@@ -85,6 +85,7 @@ addTicketBtn.addEventListener("click", function (e) {
   // console.log(ticketNum.value);
   // console.log(ticketRate.value);
   // console.log(ticketDescription.value);
+  e.preventDefault();
   if (ticketName.value == "" || ticketName.value == "" || ticketImgUrl.value == "" || ticketRegion.value == "" || ticketDescription.value == "" || ticketNum.value == "" || ticketPrice.value == "" || ticketRate.value == "") {
     alert("請輸入完整資料");
     return;
